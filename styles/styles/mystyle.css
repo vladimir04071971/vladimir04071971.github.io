@@ -66,4 +66,7 @@ footer, .btn-outline-primary {
     .carousel-indicators {
         display: none;
     }
+    .bgvideo {
+	display: none;
+    }
 }
