@@ -39,8 +39,8 @@ p {
 } 
 footer, .btn-outline-primary {
     background: linear-gradient(270deg, #1915e2 0%, #1f1f1f 92%);
-
 }
+
 .media-links {
     display: flex;
     justify-content: center;
@@ -66,7 +66,10 @@ footer, .btn-outline-primary {
     .carousel-indicators {
         display: none;
     }
-    .bgvideo {
-	display: none;
+}
+
+@media (max-width :700px) {
+    .video-text {
+        display: none;
     }
 }

@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .bgvideo video {
     height: 50vh;
@@ -17,16 +18,12 @@
     z-index: 1;
 }
 .video-text {
-    color: aquamarine;
-    z-index: 2;
-}
-.effect {
     height: 50vh;
     width: 100%;
     position: absolute;
     top: 0;
     left: 0;
     object-fit: cover;
+    color: aquamarine;
     z-index: 2;
-    background-color: rgba(0, 0, 0, 0.231);
 }
